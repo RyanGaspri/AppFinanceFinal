@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.calcprojetoint.telaconversao"
+    android:background="@drawable/card_cor">
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:textSize="35dp"
+        android:text="Insira os valores"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:id="@+id/spinnerMoedas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editTextDolar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o valor desejado"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:inputType="numberDecimal"/>
+
+
+
+    <Button
+        android:id="@+id/BotaoCalcular"
+        android:layout_marginTop="10dp"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Calcular"
+        />
+
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:padding="20dp" />
+
+    <Button
+        android:id="@+id/botaoInverter"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Inverter o processo"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Confira as 6 moedas mais importantes do mundo"
+        android:textAllCaps="false"
+        android:textColor="#0B0A0A"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/MoedaSite"
+        android:layout_marginTop="20dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/financeiroicon2"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clique aqui e confira"
+            android:textColor="#FD0303"
+
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+</LinearLayout>
+
+</ScrollView>
+
+

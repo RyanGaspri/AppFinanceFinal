@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">App Finance</string>
+    <string-array name="moedas_array">
+        <item>Dólar</item>
+        <item>Iene</item>
+        <item>Dólar Australiano</item>
+        <item>Euro</item>
+        <item>Libra esterlina</item>
+        <item>Franco Suiço</item>
+    </string-array>
+
+    <string-array name="Medida_de_tempo">
+        <item>Anual</item>
+        <item>Diario</item>
+        <item>Trimestral</item>
+    </string-array>
+
+</resources>
